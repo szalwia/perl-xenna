@@ -1,4 +1,4 @@
-# xenna - sleep with a slight discomfort in the groin area. Inspired by Tomasz 'xenna' Konojacki.
+# xenna - sleep z lekkim dyskomfortem w jajkach. Inspired by Tomasz 'xenna' Konojacki.
 # Copyright (c) 2015 szałwia <szalwiaxd@gmail.com>
 # License: WTFPL
 
@@ -14,6 +14,7 @@ no warnings 'redefine';
 
 my $dyskomfort = 0;
 
+# <~xenna> to smieszne ale czuje lekki dyskomfort w jajkach
 sub spiulkaj {
   if ($dyskomfort) {
     print STDERR "LEKKI DYSKOMFORT W JAJKACH!!!\n";
@@ -26,6 +27,10 @@ sub spiulkaj {
   }
 }
 
+# <~xenna> i musze je poprawiac/lekko podrapac
+# <~xenna> co 15 sekund
+# <~xenna> i przez to nie da sie spac
+# <~xenna> to tortura
 sub podrap_jajka { $dyskomfort = 0; }
 
 sub import {
